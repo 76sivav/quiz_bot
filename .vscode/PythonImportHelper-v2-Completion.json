@@ -1,0 +1,506 @@
+[
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "WebsocketConsumer",
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
+        "isExtraImport": true,
+        "detail": "channels.generic.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "AuthMiddlewareStack",
+        "importPath": "channels.auth",
+        "description": "channels.auth",
+        "isExtraImport": true,
+        "detail": "channels.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ProtocolTypeRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "URLRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "AllowedHostsOriginValidator",
+        "importPath": "channels.security.websocket",
+        "description": "channels.security.websocket",
+        "isExtraImport": true,
+        "detail": "channels.security.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_urlpatterns",
+        "importPath": "core.routing",
+        "description": "core.routing",
+        "isExtraImport": true,
+        "detail": "core.routing",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_WELCOME_MESSAGE",
+        "kind": 5,
+        "importPath": "core.constants",
+        "description": "core.constants",
+        "peekOfCode": "BOT_WELCOME_MESSAGE = \"Hello, I'm Quizbot. I'll asking you a few questions to assess your python programming skils.\"\nPYTHON_QUESTION_LIST = [\n    {\n      \"question_text\": \"What is the output of the following code?\\n\\nx = 5\\ny = 2\\nprint(x + y)\",\n      \"options\": [\"7\", \"52\", \"3\", \"5+2\"],\n      \"answer\": \"7\",\n    },\n    {\n      \"question_text\": \"Which of the following is NOT a valid Python variable name?\",\n      \"options\": [\"my_var\", \"1var\", \"_var\", \"Var_2\"],",
+        "detail": "core.constants",
+        "documentation": {}
+    },
+    {
+        "label": "PYTHON_QUESTION_LIST",
+        "kind": 5,
+        "importPath": "core.constants",
+        "description": "core.constants",
+        "peekOfCode": "PYTHON_QUESTION_LIST = [\n    {\n      \"question_text\": \"What is the output of the following code?\\n\\nx = 5\\ny = 2\\nprint(x + y)\",\n      \"options\": [\"7\", \"52\", \"3\", \"5+2\"],\n      \"answer\": \"7\",\n    },\n    {\n      \"question_text\": \"Which of the following is NOT a valid Python variable name?\",\n      \"options\": [\"my_var\", \"1var\", \"_var\", \"Var_2\"],\n      \"answer\": \"1var\",",
+        "detail": "core.constants",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConsumer",
+        "kind": 6,
+        "importPath": "core.consumers",
+        "description": "core.consumers",
+        "peekOfCode": "class ChatConsumer(WebsocketConsumer):\n    def connect(self):\n        self.group_name = self.scope['session'].session_key\n        # Join room group\n        async_to_sync(self.channel_layer.group_add)(\n            self.group_name,\n            self.channel_name\n        )\n        self.accept()\n    def disconnect(self, close_code):",
+        "detail": "core.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "generate_bot_responses",
+        "kind": 2,
+        "importPath": "core.reply_factory",
+        "description": "core.reply_factory",
+        "peekOfCode": "def generate_bot_responses(message, session):\n    bot_responses = []\n    current_question_id = session.get(\"current_question_id\")\n    if not current_question_id:git \n        bot_responses.append(BOT_WELCOME_MESSAGE)\n    success, error = record_current_answer(message, current_question_id, session)\n    if not success:\n        return [error]\n    next_question, next_question_id = get_next_question(current_question_id)\n    if next_question:",
+        "detail": "core.reply_factory",
+        "documentation": {}
+    },
+    {
+        "label": "record_current_answer",
+        "kind": 2,
+        "importPath": "core.reply_factory",
+        "description": "core.reply_factory",
+        "peekOfCode": "def record_current_answer(answer, current_question_id, session):\n    '''\n    Validates and stores the answer for the current question to django session.\n    '''\n    if current_question_id is None or current_question_id > len(PYTHON_QUESTION_LIST):\n        return False, \"Invalid question ID.\"\n    if not answer.strip():\n        return False, \"Answer cannot be empty.\"\n    valid_options = [str(i + 1) for i in range(len(PYTHON_QUESTION_LIST[current_question_id][\"options\"]))]\n    if answer not in valid_options:",
+        "detail": "core.reply_factory",
+        "documentation": {}
+    },
+    {
+        "label": "get_next_question",
+        "kind": 2,
+        "importPath": "core.reply_factory",
+        "description": "core.reply_factory",
+        "peekOfCode": "def get_next_question(current_question_id):\n    '''\n    Fetches the next question from the PYTHON_QUESTION_LIST based on the current_question_id.\n    '''\n    if not PYTHON_QUESTION_LIST:\n        return None, None\n    if current_question_id is None:\n        next_question = PYTHON_QUESTION_LIST[0]\n        question_text = f\"{next_question['question_text']}\\nOptions:\\n\" + \"\\n\".join(\n            [f\"{i+1}. {opt}\" for i, opt in enumerate(next_question['options'])]",
+        "detail": "core.reply_factory",
+        "documentation": {}
+    },
+    {
+        "label": "generate_final_response",
+        "kind": 2,
+        "importPath": "core.reply_factory",
+        "description": "core.reply_factory",
+        "peekOfCode": "def generate_final_response(session):\n    # sourcery skip: inline-immediately-returned-variable\n    '''\n    Creates a final result message including a score based on the answers\n    by the user for questions in the PYTHON_QUESTION_LIST.\n    '''\n    user_answers = session.get(\"answers\", {})\n    total_questions = len(PYTHON_QUESTION_LIST)\n    correct_count = 0\n    result=[]",
+        "detail": "core.reply_factory",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_urlpatterns",
+        "kind": 5,
+        "importPath": "core.routing",
+        "description": "core.routing",
+        "peekOfCode": "websocket_urlpatterns = [\n    re_path(r\"chat/\", ChatConsumer.as_asgi()),\n]",
+        "detail": "core.routing",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def chat(request):\n    if not request.session.session_key:\n        request.session.create()\n    return render(request, 'chat.html')",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "quiz_bot.asgi",
+        "description": "quiz_bot.asgi",
+        "peekOfCode": "application = ProtocolTypeRouter(\n    {\n        \"websocket\": AllowedHostsOriginValidator(\n            AuthMiddlewareStack(URLRouter(websocket_urlpatterns))\n        ),\n    }\n)",
+        "detail": "quiz_bot.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 2,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "def env(key, default=None):\n    try:\n        return os.environ[key]\n    except KeyError:\n        if default is not None:\n            return default\n        raise ImproperlyConfigured(\"`%s` environment var is required.\" % key)\ndef bool_value(key, default=False):\n    return bool(int(env(key, default)))\n# Build paths inside the project like this: BASE_DIR / 'subdir'.",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "bool_value",
+        "kind": 2,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "def bool_value(key, default=False):\n    return bool(int(env(key, default)))\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-td(*4#)n^+hy_z=kn+(&7g=aj)a7)!)cqoh28p2sxdozd_0-d7'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool_value('DEBUG', True)",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-td(*4#)n^+hy_z=kn+(&7g=aj)a7)!)cqoh28p2sxdozd_0-d7'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool_value('DEBUG', True)\nALLOWED_HOSTS = [\n    \"localhost\",\n]",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-td(*4#)n^+hy_z=kn+(&7g=aj)a7)!)cqoh28p2sxdozd_0-d7'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool_value('DEBUG', True)\nALLOWED_HOSTS = [\n    \"localhost\",\n]\nif DEBUG:\n    ALLOWED_HOSTS.append(\"*\")\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "DEBUG = bool_value('DEBUG', True)\nALLOWED_HOSTS = [\n    \"localhost\",\n]\nif DEBUG:\n    ALLOWED_HOSTS.append(\"*\")\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\n    \"localhost\",\n]\nif DEBUG:\n    ALLOWED_HOSTS.append(\"*\")\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'channels',\n    'core',\n]",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'quiz_bot.urls'",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "ROOT_URLCONF = 'quiz_bot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates'),],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates'),],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"quiz_bot.wsgi.application\"\nASGI_APPLICATION = \"quiz_bot.asgi.application\"\nCHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels_redis.core.RedisChannelLayer\",\n        \"CONFIG\": {\n            \"hosts\": [(\"redis\", 6379)],\n        },\n    },\n}",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "ASGI_APPLICATION = \"quiz_bot.asgi.application\"\nCHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels_redis.core.RedisChannelLayer\",\n        \"CONFIG\": {\n            \"hosts\": [(\"redis\", 6379)],\n        },\n    },\n}\n# Database",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "CHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels_redis.core.RedisChannelLayer\",\n        \"CONFIG\": {\n            \"hosts\": [(\"redis\", 6379)],\n        },\n    },\n}\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': env('DB_ENGINE', 'django.db.backends.postgresql'),\n        'NAME': env('DB_NAME', 'postgres'),\n        'USER': env('DB_USER', 'postgres'),\n        'PASSWORD': env('DB_PASSWORD', 'password'),\n        'HOST': env('DB_HOST', 'db'),\n        'PORT': env('DB_PORT', '5432'),\n    }\n}",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (\n#     os.path.join(",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (\n#     os.path.join(\n#         BASE_DIR, 'static/'),",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (\n#     os.path.join(\n#         BASE_DIR, 'static/'),\n# )",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (\n#     os.path.join(\n#         BASE_DIR, 'static/'),\n# )\n# Default primary key field type",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (\n#     os.path.join(\n#         BASE_DIR, 'static/'),\n# )\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# STATICFILES_DIRS = (\n#     os.path.join(\n#         BASE_DIR, 'static/'),\n# )\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "quiz_bot.settings",
+        "description": "quiz_bot.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "quiz_bot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "quiz_bot.urls",
+        "description": "quiz_bot.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", chat, name=\"chat\"),\n    # path(\"admin/\", admin.site.urls),\n]",
+        "detail": "quiz_bot.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "quiz_bot.wsgi",
+        "description": "quiz_bot.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "quiz_bot.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quiz_bot.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
